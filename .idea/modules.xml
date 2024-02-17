@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SIGSCOPE.iml" filepath="$PROJECT_DIR$/.idea/SIGSCOPE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../codeql/.idea/codeql.iml" filepath="$PROJECT_DIR$/../codeql/.idea/codeql.iml" />
     </modules>
   </component>
 </project>
