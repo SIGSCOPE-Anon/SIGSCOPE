@@ -1,0 +1,6 @@
+# This is an automatically generated file.
+
+name: vscode/quick-query
+version: 1.0.0
+dependencies:
+  codeql/javascript-all: '*'
