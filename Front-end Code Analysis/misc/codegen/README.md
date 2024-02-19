@@ -8,12 +8,12 @@ the abstract class specification of `schema.py` to generate:
 * C++ tags and trap entries (see [`trapgen.py`](generators/trapgen.py))
 * C++ structured classes (see [`cppgen.py`](generators/cppgen.py))
 
-An example `schema.py` [can be found in the Swift package](../../../../codeql/swift/schema.py).
+An example `schema.py` [can be found in the Swift package](../../swift/schema.py).
 
 ## Usage
 
 By default `bazel run //misc/codegen -- -c your-codegen.conf` will load options from `your-codegen.conf`. See
-the [Swift configuration](../../../../codeql/swift/codegen.conf) for an example. Calling `misc/codegen/codegen.py` directly (provided
+the [Swift configuration](../../swift/codegen.conf) for an example. Calling `misc/codegen/codegen.py` directly (provided
 you installed dependencies via `pip3 install -r misc/codegen/requirements.txt`) will use a file named `codegen.conf`
 contained in an ancestor directory if any exists.
 

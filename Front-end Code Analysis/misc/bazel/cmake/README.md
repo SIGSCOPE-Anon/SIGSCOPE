@@ -9,4 +9,4 @@ dependencies before letting CMake do the C/C++ compilation.
 providing an `include_generated` macro to be used in `CMakeLists.txt` to include a specific `generate_cmake` Bazel
 target.
 
-See Swift's [`CMakeLists.txt`](../../../../../codeql/swift/CMakeLists.txt) file for an example usage.
+See Swift's [`CMakeLists.txt`](../../../swift/CMakeLists.txt) file for an example usage.
